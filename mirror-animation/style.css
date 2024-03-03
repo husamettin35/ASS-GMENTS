@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+.container{
+
+    height: 100vh;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    /* gap: 1rem; */
+    /* border: 2px solid red; */
+    background-color: black;
+   background-image: url(./img/starry-sky-1655503_1280.jpg);
+   max-width: 800px;
+   height: 100vh;
+   background-size:cover;
+   background-position: center;
+   display: flex;
+ margin: auto;
+ 
+   
+   
+   
+   
+}
+/* .gezegen{
+display:flex ;
+    border: 1px solid red;
+  
+} */
+.gezegen1{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    /* grid-area: 5/5/9/9; */
+    background-color: yellow;
+    border-radius: 100%;
+    box-shadow: 2px 3px 22px  white ;
+    flex-direction:column-reverse;
+   
+  
+    
+}
+.gezegen2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column-reverse;
+    /* grid-area: 3/9/5/11; */
+    background-color:#87CEEB;
+    border-radius: 50%;
+    box-shadow: 2px 3px 22px  white ;
+    width: 90px;
+    height: 90px;
+
+}
+.gezegen3{
+    
+    /* grid-area:2 /11/3/12; */
+    background-color: gray;
+    border-radius: 50%;
+    box-shadow: 2px 3px 22px  white ;
+    width: 30px;
+    height: 30px;
+    
+}

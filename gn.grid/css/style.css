@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    background-color: rgba(123, 159, 225, 0.853);
+    background-image: url(../img/serka.jpg);
+    background-position: center;
+    background-size:cover;
+    max-width: 1200px;
+    justify-content: center;
+    text-align: center;
+   
+    
+   
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    border-radius: 25% 1%;
+    box-shadow: 2px 5px 10px 2px black;
+}
+.content1{
+    background-color: chartreuse;
+    grid-area: 1/1/3/3;
+
+}
+.content2{
+    background-color: chartreuse;
+    grid-area: 3/3/5/5;
+}
+.content3{
+    background-color: chartreuse;
+    grid-area: 5/5/9/9;
+    background-image: url(../img/Logo\ taralı.PNG);
+    background-position: center;
+    background-size:cover;
+
+}
+.content4{
+    background-color: chartreuse;
+    grid-area: 9/3/11/5;
+}
+.content5{
+    background-color: chartreuse;
+    grid-area: 11/1/13/3;
+}
+.content6{
+    background-color: chartreuse;
+    grid-area: 3/9/5/11;
+}
+.content7{
+    background-color: chartreuse;
+    grid-area: 1/11/3/13;
+}
+.content8{
+    background-color: chartreuse;
+    grid-area: 9/9/11/11;
+}
+.content9{
+    background-color: chartreuse;
+    grid-area: 11/11/13/13;
+}
+.content10{
+    background-color: fuchsia;
+    grid-area: 1/5/3/9;
+}
+.content11{
+    background-color: fuchsia;
+    grid-area: 5/1/9/3;
+}
+.content12{
+    background-color: fuchsia;
+    grid-area: 11/5/13/9;
+}
+.content13{
+    background-color: fuchsia;
+    grid-area: 5/11/9/13;
+}
