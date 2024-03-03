@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, orange, red);
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 1px;
+}
+
+.container1{
+    display: flex;
+    margin-top: 50px;
+    width: 500px;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.container2{
+    display: flex;
+    margin-top: 50px;
+    width: 500px;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.container3{
+    display: flex;
+    margin-top: 50px;
+    width: 500px;
+    height: 100px;
+    justify-content: space-around;
+}
+
+#none{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+}
+
+#dotted{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 5px dotted yellow;
+}
+
+#dashed{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 5px dashed white;
+}
+
+#solid{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    color: white;
+    border: 5px solid white;
+}
+
+#double{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    color: white;
+    border: 5px double white;
+}
+
+#groove{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    color: white;
+    border: 5px groove white;
+}
+
+#ridge{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    color: white;
+    border: 5px ridge white;
+}
+
+#inset{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    color: white;
+    border: 5px inset white;
+}
+
+#outset{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    color: white;
+    border: 5px outset white;
+}
